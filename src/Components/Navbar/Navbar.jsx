@@ -20,7 +20,9 @@ class Navbar extends Component {
         <AppBar position="static" color="primary">
           <Toolbar>
             <IconButton className={classes.menuButton} color="inherit">
-              <span>🇫🇷</span>
+              <span role="img" aria-label="france">
+                🎏
+              </span>
             </IconButton>
             <Typography className={classes.title} variant="h6" color="inherit">
               App Title
@@ -31,6 +33,10 @@ class Navbar extends Component {
               <div className={classes.searchIcon}>
                 <SearchIcon />
               </div>
+              <InputBase
+                placeholder="Search..."
+                classes={{ root: classes.inputRoot, input: classes.inputInput }}
+              />
             </div>
           </Toolbar>
         </AppBar>
