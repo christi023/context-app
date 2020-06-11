@@ -1,3 +1,3 @@
-# Context Api
+# Context - v1- classes
 
-## An app using context api with JSS styles & material ui
+## A context app using classes with JSS styles & material ui
